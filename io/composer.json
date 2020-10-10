@@ -1,0 +1,23 @@
+{
+    "name": "rsj/io",
+    "description": "To study Io model",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yff",
+            "email": "904989464@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "./Util/Inotify.php",
+            "./Util/Helper.php"
+        ],
+        "psr-4" : {
+            "Rsj\\Io\\" : "./src"
+        }
+    }
+}
